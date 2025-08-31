@@ -1,0 +1,46 @@
+.lead {
+  margin-top: 90px;
+}
+.lead__title {
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 32px;
+}
+.lead__subtitle {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1.3;
+  text-align: center;
+  max-width: 720px;
+  margin: auto;
+  margin-bottom: 64px;
+}
+.lead__image {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .lead__title {
+    font-size: 4.5rem;
+    width: 65%;
+  }
+  .lead__subtitle {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .lead {
+    margin-top: 50px;
+  }
+  .lead__title {
+    font-size: 2.5rem;
+    width: 75%;
+  }
+  .lead__subtitle {
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+}
