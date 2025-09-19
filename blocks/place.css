@@ -55,6 +55,7 @@
   background-image: linear-gradient(to right, #0278fe, #003a7b);
   border: 0;
   padding: 13px 20px;
+  height: 48px;
   max-width: 356px;
   font-size: 18px;
   border-radius: 4px;
@@ -67,7 +68,7 @@
     max-width: 720px;
   }
   .place {
-    grid-template-columns: 340px 352px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 340px auto;
     margin-bottom: 72px;
   }
@@ -75,11 +76,15 @@
     font-size: 46px;
     line-height: 42px;
   }
+  .place__image {
+    max-width: 340px;
+    width: 100%;
+  }
   .place__text {
     font-size: 16px;
   }
   .place__button {
-    height: 42px;
+    height: fit-content;
     font-size: 18px;
     padding: 13px 17px;
   }
@@ -109,7 +114,6 @@
     font-size: 16px;
   }
   .place__button {
-    height: 42px;
     font-size: 14px;
     padding: 15px 22px;
     max-width: 288px;

@@ -6,10 +6,20 @@
   margin: auto;
   max-width: 1184px;
 }
+.photogrid__image {
+  max-width: 284px;
+  width: 100%;
+}
 @media screen and (max-width: 768px) {
   .photogrid {
-    grid-template-columns: 352px 352px;
-    grid-template-rows: repeat(4, 216px);
+    max-width: 768px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    padding: 24px;
+  }
+  .photogrid__image {
+    max-width: 352px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 320px) {
