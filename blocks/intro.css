@@ -1,6 +1,6 @@
 .intro {
-  margin-top: 92px;
-  margin-bottom: 96px;
+  margin: 92px auto 118px;
+  max-width: 984px;
 }
 .intro__title {
   font-size: 3.3rem;

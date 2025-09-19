@@ -1,5 +1,7 @@
 .lead {
+  margin: auto;
   margin-top: 90px;
+  max-width: 984px;
 }
 .lead__title {
   font-size: 6rem;
